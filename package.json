@@ -1,0 +1,16 @@
+{
+  "name": "javascript-developer-exercise",
+  "version": "1.0.0",
+  "description": "## INSTRUCTIONS",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "chai-spies": "^0.7.1",
+    "mocha": "^3.4.1"
+  }
+}
