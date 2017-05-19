@@ -9,7 +9,7 @@ require("../app/asyncMap");
 
 
 describe("asyncMap", function() {
-  it("should call callback with for each mapped element", function(done) {
+  it("should call callback with each mapped element", function(done) {
     var spy = chai.spy(result => {});
 
     [1, 2, 3].asyncMap(item => (item + 1), spy);
